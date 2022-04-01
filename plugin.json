@@ -1,0 +1,8 @@
+{
+	"id": "nodebb-plugin-exiftool",
+	"url": "https://github.com/sadaszewski/nodebb-plugin-exiftool",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:image.stripEXIF", "method": "stripEXIF" }
+	]
+}
