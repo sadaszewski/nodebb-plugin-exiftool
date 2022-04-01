@@ -7,8 +7,7 @@ const plugin = {};
 
 plugin.stripEXIF = async function(data) {
 	const { path } = data;
-	let [ ext, ..._ ] = path.split('.').reverse();
-	ext = ext.toLowerCase();
+	const ext = path.split('.').reverse()[0].toLowerCase();
 	const supportedExtensions = [ 'jpg', 'jpeg' ];
 	if (supportedExtensions.indexOf(ext) === -1)
 		return;
