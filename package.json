@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-exiftool",
+  "version": "1.0.0",
+  "description": "stripEXIF implementation without image recompression",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadaszewski/nodebb-plugin-exiftool"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin"
+  ],
+  "author": {
+    "name": "Stanislaw Adaszewski",
+    "email": "s.adaszewski@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadaszewski/nodebb-plugin-exiftool/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.13.0"
+  }
+}
